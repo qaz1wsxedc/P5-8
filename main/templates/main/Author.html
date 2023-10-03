@@ -1,0 +1,16 @@
+{% extends 'main\Base.html' %}
+{% load static %}
+
+{% block title %} Автор {% endblock %}
+
+{% block content %} 
+<div class="content contacts">
+    <h1>Автор</h1>
+    <p><a href="https://vk.com/z_lgoryan_z">Игорь Зубко</a> - Аналитик, Web-разработчик</p>
+    
+    <div class="image">
+        <img src="{% static 'main\img\Author.jpg' %}" alt="График" width=30% height="auto">
+    </div>
+    
+</div>
+{% endblock %}
